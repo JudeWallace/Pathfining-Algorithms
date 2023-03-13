@@ -10,13 +10,13 @@
 ## Description
 This repository contains implementations of the BFS, DFS, and A* path finding algorithms, each of which takes a user input of a relative path to a maze within a text file. The code then performs the specified algorithm on the maze and returns the path it found allowing with other statistics such as, nodes explored, length of path and execution time
 
-
 ## Prerequisties
 1. Python 3.9+
 
 ## How to Use
 The program takes a user input of a relative path to a test file. Here is an example file hierarchy:
 
+```
 Algorithms
 ├── maze-Medium/
 |   ├── maze-Small.txt
@@ -26,6 +26,7 @@ Algorithms
 ├── dfs_generalised.py
 ├── bfs_generalised.py
 └── astar_generalised.py
+```
 
 If you setup your directory like the above, select the algorithm you wish to run by double clicking the python file.
 You will then be prompted you can enter relative file path, which for example to run the small maze is:
