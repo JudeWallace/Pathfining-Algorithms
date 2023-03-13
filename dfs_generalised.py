@@ -128,7 +128,7 @@ def main():
     """
     filename  = input("Enter the Relative Path of the maze file: ")
 
-    #Convert the maze
+    # Convert the maze
     maze = maze_to_array(filename)
     
     start, goal = maze_find_states(maze)

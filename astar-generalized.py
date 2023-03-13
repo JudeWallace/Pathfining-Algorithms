@@ -156,11 +156,14 @@ def astar(array, start, goal):
     return None, num_visited
 
 def main():
+    """
+    Runs the main logic of the program
+    """
     filename  = input("Enter the Relative Path of the maze file: ")
-    
+    # Convert the maze
     maze = maze_to_array(filename)
     start, goal = maze_find_states(maze)
-   
+    # Time the algorithm as it is performed on the maze
     start_time = time.time()
     path, nodes_visited = astar(maze, start, goal)
     end_time = time.time()
