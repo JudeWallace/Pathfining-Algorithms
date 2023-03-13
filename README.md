@@ -10,34 +10,29 @@
 ## Description
 This repository contains implementations of the BFS, DFS, and A* path finding algorithms, each of which takes a user input of a relative path to a maze within a text file. The code then performs the specified algorithm on the maze and returns the path it found allowing with other statistics such as, nodes explored, length of path and execution time
 
-[Back To The Top](#BFS,DFS,andA*PathfindingAlgorithms)
 
 ## Prerequisties
 1. Python 3.9+
-[Back To The Top](#BFS,DFS,andA*PathfindingAlgorithms)
 
 ## How to Use
 The program takes a user input of a relative path to a test file. Here is an example file hierarchy:
 
 Algorithms
 ├── maze-Medium/
-|    ├── maze-Small.txt
-|    ├── maze-Medium.txt
-|    ├── maze-Large.txt
-|    └── maze-VLarge.txt
+|   ├── maze-Small.txt
+|   ├── maze-Medium.txt
+|   ├── maze-Large.txt
+|   └── maze-VLarge.txt
 ├── dfs_generalised.py
 ├── bfs_generalised.py
 └── astar_generalised.py
 
-If you setup your directory. Select the algorithm you wish to run by double clicking the python file
+If you setup your directory like the above, select the algorithm you wish to run by double clicking the python file.
 You will then be prompted you can enter relative file path, which for example to run the small maze is:
 
 maze-Medium/maze-Small.txt
 
 To change which maze you wish to run simply enter the correct file name in replacement of maze-Small.txt
-
-
-[Back To The Top](#BFS,DFS,andA*PathfindingAlgorithms)
 
 ## License
 MIT
@@ -50,10 +45,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-[Back To The Top](#BFS,DFS,andA*PathfindingAlgorithms)
 
 ## Author Info
 
 - GitHub - [@Jude Wallace](https://github.com/JudeWallace?tab=repositories)
-
-[Back To The Top](#BFS,DFS,andA*PathfindingAlgorithms)
