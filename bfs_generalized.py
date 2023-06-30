@@ -124,15 +124,17 @@ def breadth_first_search(maze, start, end):
 
 def get_neighbours(maze, node):
     """
-    Returns a list of neighboring nodes in the maze that can be reached from the given node.
+    Returns a list of neighboring nodes in the maze that can be reached from the given 
+    node.
 
     Args:
-      maze: A 2D list representing the maze, where 1 represents an open path and 0 represents a wall.
+      maze: A 2D list representing the maze, where 1 represents an open path and 0 
+      represents a wall.
       node: A tuple representing the (row, col) position of the node in the maze.
 
     Returns:
-      neighbors: A list of tuples representing the (row, col) positions of neighboring nodes that can be reached
-                 from the given node.
+      neighbors: A list of tuples representing the (row, col) positions of neighboring 
+      nodes that can be reached from the given node.
     """
     # Get neighbors of a node in the maze
     neighbours = []
@@ -169,7 +171,7 @@ def main():
     else:
         print("Number of steps in the path: ", len(path))
         print("The number of nodes explored: ", nodes_explored)
-        #print(path)
+        print(path)
 
 if __name__ == "__main__":
     main()

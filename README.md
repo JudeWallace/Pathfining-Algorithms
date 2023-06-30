@@ -33,6 +33,7 @@ You will then be prompted to enter a relative file path, which for example, to r
 ```
 maze-Medium/maze-Small.txt
 ```
+The algorithm will then be performed on the maze and the results outputted to the terminal.
 To change which maze you wish to run simply enter the correct file name in replacement of maze-Small.txt
 
 
